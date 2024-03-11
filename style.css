@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: rgba(255, 235, 205, 0.912);
+}
+.container {
+  border-radius: 10px 10px;
+  background-color: white;
+  margin-inline: auto;
+  width: 90%;
+  max-width: 700px;
+  margin-top: 50px;
+  padding: 30px 15px;
+}
+
+.image {
+  width: 100%;
+  padding-inline: auto;
+  border-radius: 10px;
+  margin: -10px 0;
+}
+.container h1 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  margin: 12px 0;
+}
+.container p {
+  font-size: 16px;
+  margin-bottom: 30px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+}
+
+.preparation {
+  background-color: hsla(331, 63%, 69%, 0.356);
+  border-radius: 8px;
+}
+.preparation h3 {
+  color: hsl(332, 51%, 32%);
+  font-family: "Outfit", sans-serif;
+  font-weight: 400, 600, 700;
+}
+.preparation .content {
+  padding: 15px 15px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400, 600, 700;
+}
+
+.ingredients {
+  margin: 20px 0;
+}
+.ingredients h2 {
+  margin-bottom: 15px;
+  color: hsl(14, 45%, 36%);
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+}
+li{
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+}
+
+.instructions {
+  margin: 20px 0;
+}
+.instructions h2 {
+  margin-bottom: 15px;
+  color: hsl(14, 45%, 36%);
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+}
+
+ol li::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+td {
+  border: none;
+  border-bottom: 0.5px solid black;
+  padding: 10px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+}
+td:nth-child(2) {
+  color: hsl(14, 45%, 36%);
+  font-weight: bolder;
+}
+
+.nutrition {
+  margin: 20px 0;
+}
+.nutrition h2 {
+  margin-bottom: 15px;
+  color: hsl(14, 45%, 36%);
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+.attribution{
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+}
